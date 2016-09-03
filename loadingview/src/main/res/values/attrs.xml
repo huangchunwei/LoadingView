@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadingView">
+        //空视图资源
+        <attr name="emptyResId" format="reference"/>
+        //请求失败重试资源
+        <attr name="retryResId" format="reference"/>
+        //加载中资源
+        <attr name="loadingResId" format="reference"/>
+    </declare-styleable>
+</resources>
